@@ -1,0 +1,1 @@
+$('#current-time').text(moment().format('MMM do YYYY, h:mm:ss a'));

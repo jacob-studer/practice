@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Word Guess Game</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Word Guess Game</h1>
+        <button id="startGame">Start</button>
+    </header>
+    
+    <div class="container">
+        <div id="wordArea">
+            Blanks go here
+        </div>
+        <div id="scoreBoard">
+            <div id="winsLosses">
+               <p>Wins: <span id="winsTotal"></span></p>
+               <p>Losses: <span id="lossesTotal"></span></p>
+            </div>
+            <button id="resetScore">Reset Score</button>
+        </div>
+        <div id="countdownTimer">
+            <span id="timer"></span>
+            <span class="remainingTitle">seconds remaining</span>
+        </div>
+            
+    </div>
+    
+    
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
